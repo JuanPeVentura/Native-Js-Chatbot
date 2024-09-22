@@ -1,0 +1,73 @@
+body {
+    background-color: #3c3c3c;
+    font-family: sans-serif;
+}
+
+.msgContainer {
+    max-width: 340px;
+    text-wrap: wrap;
+    height: fit-content;
+    max-height: 500px;
+    background-color: #000;
+    background-image: url(fondo.png);
+    background-size: cover;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mensajes {
+    margin: 10px;
+}
+
+.sendBox {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.msgValue {
+    border-radius: 0 0 0 10px;
+    outline: none;
+    border: none;
+}
+
+.btnSend {
+    background-color: rgb(64, 112, 101);
+    border: none;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+}
+
+.my-msg, .others-msg {
+    max-width: fit-content;
+    padding: 5px;
+    font-size: 17px;
+    color: #3c3c3c;
+    word-wrap: break-word; 
+    white-space: pre-wrap;
+    box-sizing: border-box; 
+}
+
+.my-msg {
+    margin-left: auto;
+    margin-right: -5px;
+    background-color: rgb(206, 230, 205);
+    border-radius: 10px 0px 10px 10px;
+}
+
+.others-msg {
+    margin-right: auto;
+    margin-left: -5px;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 10px;
+}
+
+
+
+input {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
